@@ -4,40 +4,40 @@ function App() {
   //this part could potentially be set up as an api that we fetch from
   const questions = [
     {
-      questionText: "What state do I live in?",
+      questionText: "What is the capitol of Vermont?",
       answerOptions: [
         //array of possible answers
-        { answerText: "Oregon", isCorrect: false },
-        { answerText: "Connecticut", isCorrect: false },
-        { answerText: "Vermont", isCorrect: true },
+        { answerText: "Burlington", isCorrect: false },
+        { answerText: "Waterbury", isCorrect: false },
+        { answerText: "Montpelier", isCorrect: true },
+        { answerText: "Essex", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "What color is not in the rainbow?",
+      answerOptions: [
+        { answerText: "Red", isCorrect: false },
+        { answerText: "Indigo", isCorrect: false },
+        { answerText: "Violet", isCorrect: false },
+        { answerText: "Magenta", isCorrect: true },
+      ],
+    },
+    {
+      questionText: "What is the largest state?",
+      answerOptions: [
         { answerText: "California", isCorrect: false },
+        { answerText: "Alaska", isCorrect: true },
+        { answerText: "Texas", isCorrect: false },
+        { answerText: "Montana", isCorrect: false },
       ],
     },
     {
-      questionText: "What is my dog's name?",
+      questionText: "What is the national flower of the United States?",
       answerOptions: [
-        { answerText: "Rex", isCorrect: false },
-        { answerText: "Ranger", isCorrect: false },
-        { answerText: "Sophie", isCorrect: false },
-        { answerText: "Both 1 & 2", isCorrect: true },
-      ],
-    },
-    {
-      questionText: "What is my favorite color?",
-      answerOptions: [
-        { answerText: "purple", isCorrect: false },
-        { answerText: "turquoise", isCorrect: true },
-        { answerText: "mauve pink", isCorrect: false },
-        { answerText: "blue", isCorrect: false },
-      ],
-    },
-    {
-      questionText: "What is my least favorite animal?",
-      answerOptions: [
-        { answerText: "crocodile", isCorrect: true },
-        { answerText: "snake", isCorrect: false },
-        { answerText: "bat", isCorrect: false },
-        { answerText: "mouse", isCorrect: false },
+        { answerText: "Rose", isCorrect: true },
+        { answerText: "Sunflower", isCorrect: false },
+        { answerText: "Daisy", isCorrect: false },
+        { answerText: "Peony", isCorrect: false },
       ],
     },
   ];
