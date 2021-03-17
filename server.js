@@ -12,7 +12,7 @@ app.use(express.static(staticDir))
 
 //Create path to './index.html' page and use * to direct all paths to index.html
 app.get('*', (req, res) => {
-    res.sendFile(staticDir + 'index.html')
+    res.sendFile(staticDir + '/index.html')
 })
 
 
