@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  //this part could potentially be set up as an api that we fetch from
+  //this part could potentially be set up as an api that I fetch from
   const questions = [
     {
       questionText: "What is the capitol of Vermont?",
@@ -40,6 +40,15 @@ function App() {
         { answerText: "Peony", isCorrect: false },
       ],
     },
+    {
+      questionText: "How many national parks are there in the US?",
+      answerOptions: [
+        { answerText: "423", isCorrect: true },
+        { answerText: "652", isCorrect: false },
+        { answerText: "374", isCorrect: false },
+        { answerText: "183", isCorrect: false },
+      ],
+    }
   ];
 
   //using state to set the current question from the questions array by index
